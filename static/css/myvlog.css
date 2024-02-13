@@ -1,0 +1,522 @@
+/*                                                                Header                                   */
+.container{
+    height: 60px;
+    width: 100%;
+    margin-top: 1px;
+    background-color: red;
+
+}
+.container1{
+    height: 80%;
+    width: 70%;
+    float: right;
+}
+
+.container1 ul li a{
+    font-size: 150%;
+    text-decoration: none;
+    margin: 11%;
+    padding: 5px;
+    padding-right: 6px ;
+    border-radius: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
+
+.active:hover{
+    width:55%;
+    background: #1b9bff;
+    transition: .3s;
+}
+
+/*                                                                 FOOTER                                    */
+
+.fcontainer{
+    height: 250px;
+    width: 100%;
+    background-color: antiquewhite;
+    clear: both;
+    margin-top: 20px;
+
+}
+.Box{
+    height: 100%;
+    width: 15%;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+.Box1{
+    height: 100%;
+    width: 25%;
+    float:right;
+    margin-right: 10px;
+   
+
+}
+.Box2{
+    height: 100%;
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+
+}
+.Disclaimer{
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.Disclaimer-p{
+    font-size: 20px;
+}
+
+.box3{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.quick{
+    text-align: center;
+    font-size: 30px;
+}
+
+.box3 ul li a{
+
+    left: 30%;
+    text-decoration: none;
+    display: list-item;
+    font-size: 20px;
+    list-style-type: square;
+    color: black;
+
+
+}
+.active1{
+    padding: 3px;
+    margin-top: 1px;
+}
+
+.Contact{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-p{
+    font-size: 20px;
+}
+
+.privacy{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Box a{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+/*                                                      Home Page */
+
+.Home-container{
+    width: 100%;
+    position: relative;
+}
+
+.home-box{
+    height: 50px;
+    width: 100%;
+}
+
+.marquee-text{
+    font-size: 50px;
+}
+.img{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+/*                                                               Blog Details                       */
+
+.letest-vlogs{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+
+.vlogs-h1{
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.Blogs{
+    width: 5%;
+    height: 50px;
+    text-align: center;
+}
+
+.Blogs-Blog-s{
+    margin: 1px;
+    font-size: 40px;
+
+}
+
+/*                                                                          First Blog's */
+
+.blog-part-1{
+    width: 100%;
+}
+
+.Blogs-1{
+    width: 100%;
+}
+
+.p1{
+    font-size: 25px;
+    width: 100%;
+}
+
+.blog-header-1{
+    width: 100%;
+    height: 30px;
+}
+
+.Blogs-Published-On-1{
+    float: left;
+    width: 8%;
+    margin-top: 1px;
+    height: 30px;
+    margin: 1px;
+    clear: both;
+
+}
+
+.Blogs-Published-On-1 .Published-On-1{
+    font-size: 20px;
+    margin: 1px;
+}
+
+.Blogs-date-1-date{
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin: 1px;
+
+}
+
+.Blogs-date-1-date .date-1{   
+    font-size: 15px;
+}
+
+.blog-body-1{
+    width: 100%;
+    height: 180px;
+}
+
+.Blogs-comment-1-Comment{
+    margin-left: 1px;
+    height: 40px;
+}
+
+.Blogs-comment-1-Comment .Comment-1{
+    margin-top: 5px;
+    font-size: 30px;
+
+}
+
+.Blogs-comment-1-text-comment{
+    width: 100%;
+    height: 80px;
+}
+
+.Blogs-comment-1-text-comment .text-1{ 
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.Blogs-comment-1-text-btn{
+    float: right;
+    width: 10%;
+    margin-top: 10px
+}
+
+
+.Blogs-comment-1-text-btn .btn-1{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*                                                                          Secound Blog's */
+
+.blog-part-2{
+    width: 100%;
+}
+
+.Blogs-2{
+    width: 100%;
+}
+
+.p2{
+    font-size: 25px;
+    width: 100%;
+}
+
+.blog-header-2{
+    width: 100%;
+    height: 30px;
+}
+
+.Blogs-Published-On-2{
+    float: left;
+    width: 8%;
+    margin-top: 1px;
+    height: 30px;
+    margin: 1px;
+    clear: both;
+
+}
+
+.Blogs-Published-On-2 .Published-On-2{
+    font-size: 20px;
+    margin: 1px;
+}
+
+.Blogs-date-2-date{
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin: 1px;
+
+}
+
+.Blogs-date-2-date .date-2{   
+    font-size: 15px;
+}
+
+.blog-body-2{
+    width: 100%;
+    height: 180px;
+}
+
+.Blogs-comment-2-Comment{
+    margin-left: 1px;
+    height: 40px;
+}
+
+.Blogs-comment-2-Comment .Comment-2{
+    margin-top: 5px;
+    font-size: 30px;
+
+}
+
+.Blogs-comment-2-text-comment{
+    width: 100%;
+    height: 80px;
+}
+
+.Blogs-comment-2-text-comment .text-2{ 
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.Blogs-comment-2-text-btn{
+    float: right;
+    width: 10%;
+    margin-top: 10px
+}
+
+.Blogs-comment-2-text-btn .btn-2{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*                                                                          Third Blog's */
+
+.blog-part-3{
+    width: 100%;
+}
+
+.Blogs-3{
+    width: 100%;
+}
+
+.p3{
+    font-size: 25px;
+    width: 100%;
+}
+
+.blog-header-3{
+    width: 100%;
+    height: 30px;
+}
+
+.Blogs-Published-On-3{
+    float: left;
+    width: 8%;
+    margin-top: 1px;
+    height: 30px;
+    margin: 1px;
+    clear: both;
+
+}
+
+.Blogs-Published-On-3 .Published-On-3{
+    font-size: 20px;
+    margin: 1px;
+}
+
+.Blogs-date-3-date{
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin: 1px;
+
+}
+
+.Blogs-date-3-date .date-3{   
+    font-size: 15px;
+}
+
+.blog-body-3{
+    width: 100%;
+    height: 180px;
+}
+
+.Blogs-comment-3-Comment{
+    margin-left: 1px;
+    height: 40px;
+}
+
+.Blogs-comment-3-Comment .Comment-3{
+    margin-top: 5px;
+    font-size: 30px;
+
+}
+
+.Blogs-comment-3-text-comment{
+    width: 100%;
+    height: 80px;
+}
+
+.Blogs-comment-3-text-comment .text-3{ 
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.Blogs-comment-3-text-btn{
+    float: right;
+    width: 10%;
+    margin-top: 10px
+}
+
+.Blogs-comment-3-text-btn .btn-3{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/*                                                                          Forth Blog's */
+
+.blog-part-4{
+    width: 100%;
+}
+
+.Blogs-4{
+    width: 100%;
+}
+
+.p4{
+    font-size: 25px;
+    width: 100%;
+}
+
+.blog-header-4{
+    width: 100%;
+    height: 30px;
+}
+
+.Blogs-Published-On-4{
+    float: left;
+    width: 8%;
+    margin-top: 1px;
+    height: 30px;
+    margin: 1px;
+    clear: both;
+
+}
+
+.Blogs-Published-On-4 .Published-On-4{
+    font-size: 20px;
+    margin: 1px;
+}
+
+.Blogs-date-4-date{
+    width: 10%;
+    text-align: center;
+    float: left;
+    margin: 1px;
+
+}
+
+.Blogs-date-4-date .date-4{   
+    font-size: 15px;
+}
+
+.blog-body-4{
+    width: 100%;
+    height: 180px;
+}
+
+.Blogs-comment-4-Comment{
+    margin-left: 1px;
+    height: 40px;
+}
+
+.Blogs-comment-4-Comment .Comment-4{
+    margin-top: 5px;
+    font-size: 30px;
+
+}
+
+.Blogs-comment-4-text-comment{
+    width: 100%;
+    height: 80px;
+}
+
+.Blogs-comment-4-text-comment .text-4{ 
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.Blogs-comment-4-text-btn{
+    float: right;
+    width: 10%;
+    margin-top: 10px
+}
+
+.Blogs-comment-4-text-btn .btn-4{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}

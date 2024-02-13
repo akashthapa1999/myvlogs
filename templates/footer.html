@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "\static\css\myvlog.css"/>
+</head>
+
+<body>
+    <div class = "fcontainer">
+        <div class = 'Box2'>
+            <h2 class = 'Contact'>Contact Details</h2>
+            <p class = 'contact-p'>203/1, Ground Floor, 
+                Tower S5, Sez Phase, 
+                Manikonda Village, 
+                Rajendra Nagar Mandal, 
+                Gachibowli-500032.
+            </p>
+        </div>
+        
+        <div class = "Box">
+            <h2 class = 'privacy' >Privacy Policy</h2>
+            <ul>
+                <li>
+                    <a href="{% url 'privacy' %}" target = ' '>Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class = "Box1">
+            <h2 class = "Disclaimer">Disclaimer</h2>
+                <p class = Disclaimer-p>All rights reserved to wipro Technologies.
+                    The information contained on the Service is for general information purposes only.The Company assumes no responsibility for errors or omissions in the contents of the Service.
+                </p> 
+        </div>
+
+        <div class = box3>
+            <h2 class = "quick">Quick Links</h2>
+            <ul>
+                <li type = none>
+                    <a class = "active1" href="{% url 'Home' %}">Home</a>
+                    <a class = "active1" href="{% url 'About-us' %}">About</a>
+                    <a class = "active1" href="{% url 'twitter' %}">Twitter</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
